@@ -1,5 +1,21 @@
+:root{
+    --ecl-blue: #36f;
+    --grey: #ccc;
+    --deep-grey: #999;
+    --blue: #46a;
+
+}
 *{
     box-sizing: border-box;
     margin: 0px;
     border: 0px;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'DM Sans',sans-serif;
+}
+header{
+    display: flex;
+    height: 100px;
+    fon
 }
