@@ -79,3 +79,46 @@ header img{
     background-image: url("../assets/icons/down-arrow.svg");
     background-repeat: no-repeat;
 }
+
+/*Main*/
+main{
+    width: 100%;
+    height: auto;
+}
+.main-tables--menu{
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    text-align: center;
+}
+.menu--lists{
+    width: 100%;
+    min-width: 300px;
+    max-width: 900px;
+    min-height: 60px;
+    margin: 0px auto;
+    padding: 10px 0px;
+    list-style-type: none;
+    background-color: #f1f1f1;
+}
+.menu--lists li{
+    display: inline-flex;
+    
+}
+.menu--lists li a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 135px;
+    min-height: 36px ;
+    margin-top: 2px;
+    border: 1px solid #bbb;
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: black;
+}
+li a:hover{
+    background-color: #555;
+    color: white;
+}
+
