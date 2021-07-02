@@ -129,21 +129,21 @@ li a:hover{
 }
 
 /*Desgin tables info*/
-/* .main-tables-statusall{
+.main-tables-statusall{
     width: 70%;
     min-width: 235px;
     max-width: 500px;
     height: 330px;
     margin: 0 auto;
     
-} */
-.main-statusall-table{
+}
+/* .main-statusall-table{
     width: 80%;
     min-width: 235px;
     max-width: 500px;
     height: 330px;
     margin: 0 auto;
-}
+} */
 
 .main-tables-statusall .tables-statusall--tittle{
     width: 80%;
