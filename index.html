@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SmartData </title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 930px)"/>
 </head>
 <body>
     <header>
@@ -15,7 +16,7 @@
                 Time: 09:12:56 up 1:44, load average: 0.07, 0.05, 0.09
                 WAN IP: 192.168.0.6
             </p>
-            <a href class="header--button">Seleccionar Idiomas <span></span></a>
+            <a href="#" class="header--button">Seleccionar Idiomas <span></span></a>
         </div>
 
     </header>
@@ -43,10 +44,8 @@
                 <div class="tables-statusall--tittle">
                     <p> <b>System Information</b> </p>      
                 </div>
-                    <div class="statusall-table--container">
-                        <div class="prueba">
-                            <p class="">Resume</p>
-                        </div>
+                    <div class="statusall-table--router">
+                        <div class="table__tag"><p class="">Router</p></div>
                         <table>
                             <tr>
                                 <td class="table__top-left">Router Name</td>
@@ -73,7 +72,7 @@
                                 <td class="table__right">192.165.10.1</td>
                             </tr>
                             <tr>
-                                <td clas>BKUP WAN IP</td>
+                                <td>BKUP WAN IP</td>
                                 <td class="table__right">192.165.10.2</td>
                             </tr>
                             <tr>
@@ -82,8 +81,111 @@
                             </tr>
                         </table>
                     </div>
+                    <div class="statusall-table--wireless">
+                        <div class="table__tag"><p>Wireless</p></div>
+                        <table>
+                            <tr>
+                                <td>Radio</td>
+                                <td>Radio is Off</td>
+                            </tr>
+                            <tr>
+                                <td>Mode</td>
+                                <td> </td>
+                            </tr>
+                            <tr>
+                                <td>Network</td>
+                                <td>Disabled</td>
+                            </tr>
+                            <tr>
+                                <td>SSID</td>
+                                <td>holamundo</td>
+                            </tr>
+                            <tr>
+                                <td>Channel</td>
+                                <td>0 (2407 MHz)</td>
+                            </tr>
+                            <tr>
+                                <td>TX Power</td>
+                                <td> </td>
+                            </tr>
+                            <tr>
+                                <td>Rate</td>
+                                <td>Disabled</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="statusall-table--wirelessPackInf">
+                        <div class="table__tag"><p> Wireless Packet Info </p></div>
+                        <table>
+                            <tr>
+                                <td>Received (RX)</td>
+                                <td>0 OK, no error</td>
+                            </tr>
+                            <tr>
+                                <td>Transmitted (TX)</td>
+                                <td>0 OK, no error</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="statusall-table--services">
+                        <div class="table__tag"><p> Services </p></div>
+                        <table>
+                            <tr>
+                                <td>Received (RX)</td>
+                                <td>0 OK, no error</td>
+                            </tr>
+                            <tr>
+                                <td>Transmitted (TX)</td>
+                                <td>0 OK, no error</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="statusall-table--Memory">
+                        <div class="table__tag"><p class="">Router</p></div>
+                        <table>
+                            <tr>
+                                <td>Total Available</td>
+                                <td>121.7 MB / 128.0 MB  </td>
+                            </tr>
+                            <tr>
+                                <td>Free</td>
+                                <td>70.4 MB / 121.7 MB </td>
+                            </tr>
+                            <tr>
+                                <td>Used</td>
+                                <td> 51.3 MB / 121.7 MB  </td>
+                            </tr>
+                            <tr>
+                                <td>Buffers</td>
+                                <td> 6.3 MB / 51.4 MB </td>
+                            </tr>
+                            <tr>
+                                <td>Cached</td>
+                                <td> 19.8 MB / 51.4 MB </td>
+                            </tr>
+                            <tr>
+                                <td>Active</td>
+                                <td> 10.2 MB / 51.4 MB</td>
+                            </tr>
+                            <tr>
+                                <td>Inactive</td>
+                                <td> 20.8 MB / 51.4 MB</td>
+                            </tr>
+                           
+                        </table>
+                    </div>
+            </section>
+            <section class="main-tables-dhcp">
+                <div class="table-dhcp--tittle">
+                    <p><b>DHCP</b></p>
+                </div>
             </section>
         </section>
     </main>
+    <footer>
+        <div>
+            <h1>hola mundo</h1>
+        </div>
+    </footer>
 </body>
 </html>

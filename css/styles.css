@@ -57,7 +57,7 @@ header img{
 }
 .header--modemstatus .header--button{
     position: absolute;
-    left: calc(50% - 118px);
+    left: calc(50% - 110px);
     top: 90px;
     display: block;
     margin-top: 35px;
@@ -97,6 +97,7 @@ main{
     padding-top: 30px;
     text-align: center;
 }
+/*Menu*/
 .menu--lists{
     width: 100%;
     min-width: 300px;
@@ -132,61 +133,222 @@ li a:hover{
 .main-tables-statusall{
     width: 70%;
     min-width: 235px;
-    max-width: 500px;
-    height: 330px;
+    /* max-width: 500px; */
+    height: auto;
     margin: 0 auto;
-    
 }
-/* .main-statusall-table{
-    width: 80%;
-    min-width: 235px;
-    max-width: 500px;
-    height: 330px;
-    margin: 0 auto;
-} */
-
 .main-tables-statusall .tables-statusall--tittle{
-    width: 80%;
+    width: 100%;
     min-width: 235px;
     height: 25px;
-    margin: 10px;
+    margin: 12px;
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 2.3rem;
     color:  black ;
     text-align: center;
+    background-color:  #f2f4f4 ;
 }
 
-.statusall-table--container{
+.statusall-table--router{
     width: 90%;
     min-width: 235px;
     max-width: 300px;
-    height: 230px;
+    height: auto;
     padding: 10px;
     margin: 0 auto;
     border: 1px solid  #2b7bb1 ;
 }
-.prueba{
+.table__tag{
     position:absolute;
-    margin-top: -22px;
-    width: 70px;
+    margin-top: -24px;
+    width: auto;
     height: 25px;
     background-color: white;
 }
-.prueba p{
+.table_tag p{
     font-size: 1.4rem;
     font-weight: bold;
     line-height: 2.3rem;
     color:  #3498db ;
 }
-.statusall-table--container table{
+.statusall-table--router table{
     width: 100%;
     height: 100%;
 }
-.statusall-table--container td{
+.statusall-table--router td{
     width: 50%;
     font-size: 1.2rem;
     font-weight: normal;
-    line-height: 1.9rem;
+    line-height: 2.3rem;
     background-color: #EAEDED;
+}
+
+ /*Wireless*/
+ .statusall-table--wireless{
+     width: 90%;
+     min-width: 235px;
+     max-width: 300px;
+     height: auto;
+     padding: 10px;
+     margin: 0 auto;
+     margin-top: 20px;
+     border: 1px solid #2b7bb1;
+ }
+.table__tag{
+    position: absolute;
+    margin-top: -24px;
+    width: auto;
+    height: 25px;
+    background-color: white;
+}
+.table__tag p{
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+    color: #3498db;
+
+}
+.statusall-table--wireless table{
+    width: 100%;
+    height: 100%;
+}
+.statusall-table--wireless td{
+    width: 50%;
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 2.3rem;
+    background-color: #EAEDED;
+}
+ /*Wireless Packet info*/
+.statusall-table--wirelessPackInf{
+    width: 90%;
+    min-width: 235px;
+    max-width: 300px;
+    height: auto;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid #2b7bb1;
+}
+.table__tag{
+   position: absolute;
+   margin-top: -22px;
+   width: auto;
+   height: 25px;
+   background-color: white;
+}
+.table__tag p{
+   font-size: 1.4rem;
+   font-weight: bold;
+   line-height: 2.5rem;
+   color: #3498db;
+
+}
+.statusall-table--wirelessPackInf table{
+   width: 100%;
+   height: 100%;
+}
+.statusall-table--wirelessPackInf td{
+   width: 50%;
+   font-size: 1.2rem;
+   font-weight: normal;
+   line-height: 2.3rem;
+   background-color: #EAEDED;
+}
+ /*Services*/
+ .statusall-table--services{
+    width: 90%;
+    min-width: 235px;
+    max-width: 300px;
+    height: auto;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid #2b7bb1;
+}
+.table__tag{
+   position: absolute;
+   margin-top: -22px;
+   width: auto;
+   height: 25px;
+   background-color: white;
+}
+.table__tag p{
+   font-size: 1.4rem;
+   font-weight: bold;
+   line-height: 2.5rem;
+   color: #3498db;
+
+}
+.statusall-table--services table{
+   width: 100%;
+   height: 100%;
+}
+.statusall-table--services td{
+   width: 50%;
+   font-size: 1.2rem;
+   font-weight: normal;
+   line-height: 2.3rem;
+   background-color: #EAEDED;
+}
+/*Memory*/
+.statusall-table--Memory{
+    width: 90%;
+    min-width: 235px;
+    max-width: 300px;
+    height: auto;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid #2b7bb1;
+}
+.table__tag{
+   position: absolute;
+   margin-top: -24px;
+   width: auto;
+   height: 25px;
+   background-color: white;
+}
+.table__tag p{
+   font-size: 1.4rem;
+   font-weight: bold;
+   line-height: 2.5rem;
+   color: #3498db;
+
+}
+.statusall-table--Memory table{
+   width: 100%;
+   height: 100%;
+}
+.statusall-table--Memory td{
+   width: 50%;
+   font-size: 1.2rem;
+   font-weight: normal;
+   line-height: 2.3rem;
+   background-color: #EAEDED;
+}
+
+/*
+-----------------------
+        DHCP Table
+-----------------------*/
+.main-tables-dhcp{
+    width:70% ;
+    min-width: 235px;
+    max-width: 500px;
+    height: auto;
+    margin: 0 auto;
+}
+.main-tables-dhcp .table-dhcp--tittle{
+    width: 100%;
+    min-width: 235px;
+    height: 25px;
+    margin: 12px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color:  black ;
+    text-align: center;
+    background-color:  #f2f4f4 ;
 }
